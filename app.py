@@ -14,7 +14,7 @@ def main():
         <h2 style="color:white;text-align:center;"> Enter Your Message </h2>
         </div>
         """
-	st.subheader("Vishnu Pandey")
+	
 	st.markdown(html_temp,unsafe_allow_html=True)
 	msg=st.text_input("Enter a text")
 	if st.button("Process"):
